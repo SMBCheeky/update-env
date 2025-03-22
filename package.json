@@ -1,0 +1,24 @@
+{
+  "name": "@smbcheeky/update-env",
+  "version": "1.0.0",
+  "description": "Simplify the management of environment configuration and files for Expo React Native projects that use EAS Build.",
+  "scripts": {
+    "use-production": "./update-env.sh production",
+    "use-staging": "./update-env.sh staging"
+  },
+  "license": "MIT",
+  "private": false,
+  "homepage": "https://smbcheeky.com",
+  "author": {
+    "name": "Stefan B.",
+    "email": "stefan@smbcheeky.com",
+    "url": "https://www.npmjs.com/~stefan-at-smb"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SMBCheeky/update-env.git"
+  },
+  "bugs": {
+    "url": "https://github.com/SMBCheeky/update-env/issues"
+  }
+}

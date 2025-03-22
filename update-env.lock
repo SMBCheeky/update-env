@@ -1,0 +1,64 @@
+Setup started...
+Check update-env.sh files...
+Reading update-env.ignore...
+  > done
+Check environment files and folders...
+Copy environment files to project...
+  > found environment.json
+  > project now has environment.json
+  > done
+.gitignore update...
+  > # @start Managed by update-env.sh
+  > .DS_Store
+  > node_modules/
+  > npm-debug.*
+  > yarn-debug.*
+  > yarn-error.*
+  > *.pem
+  > *.p8
+  > *.p12
+  > *.key
+  > dist/
+  > web-build/
+  > tsconfig.tsbuildinfo
+  > /.idea/
+  > .env
+  > .env.*
+  > .env*.
+  > android/
+  > ios/
+  > .metro-health-check*
+  > .expo/
+  > expo-env.d.ts
+  > *.orig.*
+  > *.jks
+  > *.mobileprovision
+  > *.apk
+  > *.aab
+  > *.ipa
+  > .envrc
+  > others/
+  > # @env ------------------------
+  > .environment
+  > # @files ----------------------
+  > environment.json
+  > # @end Managed by update-env.sh
+  > clean up whitespaces
+  > done
+.easignore update...
+  > copy over all .gitignore entries except for environment files
+  > force include environment files in EAS Build...
+    > !environment.json
+  > clean up whitespaces
+  > done
+Files actively checked and added to git...
+  > update-env.ignore
+  > update-env.lock
+  > update-env.sh
+  > .gitignore
+  > .easignore
+  > done
+Files actively checked and removed from git...
+  > .environment
+  > done
+Environment was successfully changed

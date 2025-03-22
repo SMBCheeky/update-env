@@ -1,0 +1,39 @@
+#.easignore file placeholder
+
+#.gitignore file placeholder
+
+# @start Managed by update-env.sh
+.DS_Store
+node_modules/
+npm-debug.*
+yarn-debug.*
+yarn-error.*
+*.pem
+*.p8
+*.p12
+*.key
+dist/
+web-build/
+tsconfig.tsbuildinfo
+/.idea/
+.env
+.env.*
+.env*.
+android/
+ios/
+.metro-health-check*
+.expo/
+expo-env.d.ts
+*.orig.*
+*.jks
+*.mobileprovision
+*.apk
+*.aab
+*.ipa
+.envrc
+others/
+# @env ------------------------
+.environment
+# @files ----------------------
+!environment.json
+# @end Managed by update-env.sh
