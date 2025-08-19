@@ -14,8 +14,10 @@ tsconfig.tsbuildinfo
 .env
 .env.*
 .env*.
+.env*.local
 
 android/
+.kotlin/
 ios/
 .metro-health-check*
 .expo/
@@ -29,3 +31,4 @@ expo-env.d.ts
 
 .envrc
 others/
+*.tsbuildinfo
